@@ -5,8 +5,8 @@ Creating and using LEDs was never so easy...
 #include <Arduino.h>
 #include <Led.h>
 
-#define LED_PIN            GPIO_NUM_4
-Led led(LED_PIN, ON, fade);
+#define LED_PIN GPIO_NUM_4
+Led led(LED_PIN, OFF, fade);
 
 void setup()
 {
@@ -18,8 +18,6 @@ void loop()
    led.update();
 }
 ```
-
-
 ## continuous mode:
 
 ## blinking mode:
