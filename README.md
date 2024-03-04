@@ -1,4 +1,4 @@
-# Button class
+# Led class
 LED class for arduino projects.
 Creating and using LEDs was never so easy...
 ```
